@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+.firstpage{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+.navbar{
+   display: flex;
+   background-color: blue;
+   padding:20px;
+   width: 100%;
+   align-items: center;
+   position: fixed;
+   justify-content: center;
+  /* margin-top: -5%;*/
+   
+   z-index: 1;
+   color: #fff;
+}
+.navbar h1{
+    margin-right: 30%;
+}
+
+.navbar ul li{
+    display: inline-block;
+    width: 100%;
+    justify-items: center;
+    margin-left: 17px;
+    padding: 5px;
+    list-style: none;
+    color: #fff;
+}
+
+a{
+ 
+  text-decoration: none; 
+  color: white;
+  
+}
+.navbar ul li a:hover{
+    /* border-bottom: 2px solid white; */
+    content: "";
+    background-color: rgb(179, 255, 0);
+    color: #fff;
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+      /* text-align: center;*/
+    height: 100vh;
+}
+
+.colm-image img{
+    width: 250px;
+    margin: 20px 20px;
+    border-radius: 60%;
+}
+
+.colm-logo{
+    width: 23%;
+    margin: 20px 20px;
+    text-align: left;
+    color: blue;
+    font-size: larger;
+}
+.hello-world{
+    text-shadow: rgb(0, 0, 0);
+    font-size: 2.5em ;
+    font-family:  Tahoma;
+    margin-bottom: 20px;
+}
+
+/*----------project -------------*/
+.killer{
+    width: 100%;
+    padding: 6% 5% 6% 5%;
+    overflow: hidden;
+}
+.project{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+    /* overflow: hidden; */
+}
+.project .content{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0, 7px 25px rgb(0, 0, 0, 0.8);
+}
+.contentImage img{
+    width: 30%;
+    height: 35%;
+}
+
+/*---------- new page -----------*/
+.contact{
+    display: flex;
+    width:100%;
+    margin: 0% 0% 0% 0%;
+    padding-top: 5%;
+    background-color: blueviolet;
+    padding-bottom: 10%;
+
+}
+.container{
+   width: 100%;
+   margin-left: 10%;
+   margin-right: 0%;
+  
+}
+.contact h1{
+    font: 1em Verdana;
+    color: white;
+}
+.contact p{
+    font: 3em sans-serif;
+    padding: auto;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3%;
+}
+.contact-us{
+    display: flex;
+    margin: 5% 5%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-us ul li{
+    text-decoration: none;
+    margin: 30px;
+    color: #fff;
+}
+
+.footer{
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+}
+.text{
+    content: "chrissy brown";
+    font: 1em tahoma bold;
+}
+.text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media (max-width:12450px){
+
+}
+
+
+
